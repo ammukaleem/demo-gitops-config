@@ -1,2 +1,3 @@
-# demo-gitops-config
-demo-gitops-config
+# GITOPS CONFIG REPO
+
+Repo for configuration files
