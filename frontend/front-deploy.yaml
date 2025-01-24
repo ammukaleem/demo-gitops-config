@@ -16,6 +16,6 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: manrala/frontend:build-12040260538
+      - image: dockaleem/nodeapp:V1
         name: nodeapp
         resources: {}
