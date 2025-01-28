@@ -6,7 +6,11 @@ metadata:
   name: frontend
   namespace: nodeapp
 spec:
+<<<<<<< HEAD
   replicas: 3
+=======
+  replicas: 4
+>>>>>>> refs/remotes/origin/main
   selector:
     matchLabels:
       app: frontend
@@ -16,6 +20,6 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: dockaleem/frontend:build-13008769461
+      - image: dockaleem/frontend:build-13010459619
         name: nodeapp
         resources: {}
