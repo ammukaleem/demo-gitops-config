@@ -1,9 +1,10 @@
 apiVersion: apps/v1
-kind: Deployment
+kiind: Deployment
 metadata:
   labels:
     app: frontend
   name: frontend
+  namespace: nodeapp
 spec:
   replicas: 1
   selector:
