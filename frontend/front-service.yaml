@@ -11,6 +11,6 @@ spec:
   - port: 3000
     protocol: TCP
     targetPort: 3000
-    nodePort: 30905
+    nodePort: 30400
   selector:
     app: frontend
