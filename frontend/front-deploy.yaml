@@ -6,11 +6,7 @@ metadata:
   name: frontend
   namespace: nodeapp
 spec:
-<<<<<<< HEAD
-  replicas: 3
-=======
   replicas: 4
->>>>>>> refs/remotes/origin/main
   selector:
     matchLabels:
       app: frontend
