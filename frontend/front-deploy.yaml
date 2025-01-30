@@ -16,6 +16,6 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: dockaleem/frontend:build-13014665137
+      - image: dockaleem/frontend:build-13048594358
         name: nodeapp
         resources: {}
